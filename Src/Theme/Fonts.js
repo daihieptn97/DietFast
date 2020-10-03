@@ -12,39 +12,33 @@ const size = {
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  OpenSansBold: {
+  fontOpenSansBold: {
     fontFamily: 'OpenSans-Bold',
   },
-  OpenSansBoldItalic: {
+  fontOpenSansBoldItalic: {
     fontFamily: 'OpenSans-BoldItalic',
   },
-  OpenSansExtraBold: {
+  fontOpenSansExtraBold: {
     fontFamily: 'OpenSans-ExtraBold',
   },
-  OpenSansExtraBoldItalic: {
+  fontOpenSansExtraBoldItalic: {
     fontFamily: 'OpenSans-ExtraBoldItalic',
   },
-  OpenSansLight: {
+  fontOpenSansLight: {
     fontFamily: 'OpenSans-Light',
   },
-  OpenSansLightItalic: {
+  fontOpenSansLightItalic: {
     fontFamily: 'OpenSans-LightItalic',
   },
-//   fontMerriweatherBlack: {
-//     fontFamily: 'OpenSans-Bold',
-//   },
-//   fontMerriweatherBlack: {
-//     fontFamily: 'OpenSans-Bold',
-//   },
-//   fontMerriweatherBlack: {
-//     fontFamily: 'OpenSans-Bold',
-//   },
-//   fontMerriweatherBlack: {
-//     fontFamily: 'OpenSans-Bold',
-//   },
-//   fontMerriweatherBlack: {
-//     fontFamily: 'OpenSans-Bold',
-//   },
+  fontOpenSansRegular: {
+    fontFamily: 'OpenSans-Regular',
+  },
+  fontOpenSansSemiBold: {
+    fontFamily: 'OpenSans-SemiBold',
+  },
+  fontOpenSansSemiBoldItalic: {
+    fontFamily: 'OpenSans-SemiBoldItalic',
+  },
   small: {
     fontSize: size.small,
   },
