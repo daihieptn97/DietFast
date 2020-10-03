@@ -7,18 +7,13 @@ import SlideScreen from './Src/Container/Slide/SlideScreen';
 const Stack = createStackNavigator();
 
 function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="slide"
-          component={SlideScreen}
-          options={{headerShown: false}}
-        />
-        
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+    return (
+        <NavigationContainer>
+            <Stack.Navigator>
+                <Stack.Screen name="slide" component={SlideScreen} options={{headerShown: false}}/>
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 }
 
 export default App;
