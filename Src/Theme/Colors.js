@@ -29,7 +29,7 @@ export default {
     grey02: '#465867',
     grey03: '#212A32',
 
-    iconOn: '#3dbb8a',
-    iconOff: '#bec0c1',
+    active: '#6cc57c',
+    deActive: '#e3e3e3',
 
 };
