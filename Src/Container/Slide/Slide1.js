@@ -2,25 +2,26 @@ import {Image, StyleSheet, View} from 'react-native';
 import {Colors, Dimension, Images} from '../../Theme';
 import Swiper from 'react-native-swiper';
 import React from 'react';
+import Carousel from 'react-native-snap-carousel';
 
 function Slide1({setIndexSlide}) {
-    const [test, setTest] = React.useState(0);
+    const data = [Images.slide1, Images.slide2, Images.slide3];
+
+    const _renderItem = ({item}) => {
+        return <View style={styles.slide1}>
+            <Image source={item} style={styles.imgSlide}/>
+        </View>;
+    };
     return <View style={{backgroundColor: Colors.red, flex: 7, height: 400}}>
-        <Swiper style={styles.wrapper} autoplay={true}
-                onIndexChanged={(index) => {
-                    setIndexSlide(index)
-                }}
-        >
-            <View style={styles.slide1}>
-                <Image source={Images.slide2} style={styles.imgSlide}/>
-            </View>
-            <View style={styles.slide1}>
-                <Image source={Images.slide1} style={styles.imgSlide}/>
-            </View>
-            <View style={styles.slide1}>
-                <Image source={Images.slide3} style={styles.imgSlide}/>
-            </View>
-        </Swiper>
+        <Carousel autoplay={true} autoplayInterval={3000} loop={true} layout={'tinder'}
+                  onSnapToItem={(e) => {
+                      setIndexSlide(e);
+                  }}
+                  data={data}
+                  renderItem={_renderItem}
+                  sliderWidth={Dimension.screenWidth}
+                  itemWidth={Dimension.screenWidth}
+        />
     </View>;
 }
 

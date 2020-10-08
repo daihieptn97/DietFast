@@ -5,24 +5,14 @@ import Swiper from 'react-native-swiper';
 import DotSlideScreen from '../../Componet/DotSlide/DotSlideScreen';
 import Slide1 from './Slide1';
 
-let ind = 0;
-
 function SlideScreen() {
 
     const [indexSlide, setIndexSlide] = React.useState(0);
 
-
-    const callback = (index) => {
-        console.log(index);
-        setIndexSlide(index)
-    };
-
-
-
     return <View style={{flex: 1}}>
         <StatusBar barStyle={'light-content'}/>
-        <Slide1 setIndexSlide={callback}/>
-        <View style={styles.wrapContent}>
+        <Slide1 setIndexSlide={setIndexSlide}/>
+        <View style={styles.wrapContent} pointevent={'none'}>
             <View style={{position: 'relative', backgroundColor: '#f4f5fa', flex: 1}}>
                 <Image source={Images.bgSlideGreen} style={styles.imgBgGreen}/>
                 <ImageBackground source={Images.bgSlideWhite} style={[styles.imgBgGreen, {top: '-93%'}]}>
