@@ -3,37 +3,21 @@ import {Image, ImageBackground, StatusBar, StyleSheet, Text, TouchableOpacity, V
 import {Colors, Dimension, Fonts, Images} from '../../Theme';
 import Swiper from 'react-native-swiper';
 import DotSlideScreen from '../../Componet/DotSlide/DotSlideScreen';
+import Slide1 from './Slide1';
 
 let ind =0
 function SlideScreen() {
 
     const [indexSlide, setIndexSlide] = React.useState(0);
-    const [b, b1] = React.useState(0);
+
 
     const memoizedValue = React.useMemo(() => {
-        return <View style={{backgroundColor: Colors.red, flex: 7, height: 400}}>
-            <Swiper style={styles.wrapper} autoplay={true}
-                    onIndexChanged={(index) => {
-                        ind = index;
-                        setIndexSlide(index)
-                    }}
-            >
-                <View style={styles.slide1}>
-                    <Image source={Images.slide2} style={styles.imgSlide}/>
-                </View>
-                <View style={styles.slide1}>
-                    <Image source={Images.slide1} style={styles.imgSlide}/>
-                </View>
-                <View style={styles.slide1}>
-                    <Image source={Images.slide3} style={styles.imgSlide}/>
-                </View>
-            </Swiper>
-        </View>
-    }, [b]);
 
+    }, []);
+    console.log("111111");
     return <View style={{flex: 1}}>
         <StatusBar barStyle={'light-content'}/>
-        {memoizedValue}
+        <Slide1 setIndexSlide={setIndexSlide}/>
         <View style={styles.wrapContent}>
             <View style={{position: 'relative', backgroundColor: '#f4f5fa', flex: 1}}>
                 <Image source={Images.bgSlideGreen} style={styles.imgBgGreen}/>
