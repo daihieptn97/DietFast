@@ -8,7 +8,7 @@ function Slide1({setIndexSlide}) {
     return <View style={{backgroundColor: Colors.red, flex: 7, height: 400}}>
         <Swiper style={styles.wrapper} autoplay={true}
                 onIndexChanged={(index) => {
-                    setTest(index);
+                    setIndexSlide(index)
                 }}
         >
             <View style={styles.slide1}>
