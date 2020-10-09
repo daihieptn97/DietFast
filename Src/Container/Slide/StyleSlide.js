@@ -1,33 +1,7 @@
-import {Image, StyleSheet, View} from 'react-native';
-import {Colors, Dimension, Images} from '../../Theme';
-import Swiper from 'react-native-swiper';
-import React from 'react';
-import Carousel from 'react-native-snap-carousel';
+import {StyleSheet} from 'react-native';
+import {Colors, Dimension} from '../../Theme';
 
-function Slide1({setIndexSlide}) {
-    const data = [Images.slide1, Images.slide2, Images.slide3];
-
-    const _renderItem = ({item}) => {
-        return <View style={styles.slide1}>
-            <Image source={item} style={styles.imgSlide}/>
-        </View>;
-    };
-    return <View style={{backgroundColor: Colors.red, flex: 7, height: 400}}>
-        <Carousel autoplay={true} autoplayInterval={3000} loop={true} layout={'tinder'}
-                  onSnapToItem={(e) => {
-                      setIndexSlide(e);
-                  }}
-                  data={data}
-                  renderItem={_renderItem}
-                  sliderWidth={Dimension.screenWidth}
-                  itemWidth={Dimension.screenWidth}
-        />
-    </View>;
-}
-
-export default React.memo(Slide1);
-
-const styles = StyleSheet.create({
+export default StyleSheet.create({
     wrapContent: {flex: 3, backgroundColor: Colors.transparent, zIndex: 1},
     partTopView: {flex: 5, zIndex: -1},
     wrapInformation: {flex: 5, justifyContent: 'center', marginHorizontal: 45},
@@ -35,6 +9,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         textAlign: 'center',
         marginBottom: Dimension.screenHeight * 0.02,
+        textTransform : 'uppercase'
     },
     txtDescription: {
         color: '#a5a5a5',

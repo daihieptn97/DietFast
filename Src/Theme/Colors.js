@@ -1,7 +1,7 @@
 export default {
     transparent: 'rgba(0,0,0,0)',
     whiteLayer: 'rgba(255,255,255, 0.3)',
-    background: 'rgba(242,242,242,1)',
+    background: '#f4f5fa',
 
     // Example colors:
     white: '#ffffff',
