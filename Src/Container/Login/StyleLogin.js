@@ -18,8 +18,19 @@ export default StyleSheet.create({
     },
     inputEmail: {
         width: Dimension.screenWidth - 78,
+        height: 54,
         backgroundColor: Colors.white,
-        borderColor: Colors.white
+        borderRadius: 6,
+        paddingHorizontal: 27,
+        shadowColor: Colors.warmGrey,
+        shadowOffset: {
+            width: 1,
+            height: 3,
+        },
+        shadowOpacity: 0.12,
+        shadowRadius: 5,
+
+        elevation: 7,
     },
     wrapInput: {
         marginVertical: 36,
@@ -31,5 +42,23 @@ export default StyleSheet.create({
         color: Colors.warmGrey,
         fontSize: 13,
         marginVertical: 24,
+    },
+    txtTitle: {
+        fontSize: 40,
+        color: Colors.black,
+    },
+    warpBtnLogin: {},
+    btnLogin: {
+        height: 54,
+        backgroundColor: Colors.black,
+        width: Dimension.screenWidth - 78,
+        borderRadius: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    txtLogin: {
+        color: Colors.white,
+        fontSize : 20,
+
     },
 });
