@@ -5,4 +5,7 @@ export default {
     bgSlideGreen: require('../Assets/Images/Splash/Path1950_2020-10-03/Path19502x.png'),
     bgSlideWhite: require('../Assets/Images/Splash/Path2_2020-10-03/Path22x.png'),
 
+    bgTopLogin: require('../Assets/Images/Login/top.png'),
+    bgBottomLogin: require('../Assets/Images/Login/bottom.png'),
+
 };

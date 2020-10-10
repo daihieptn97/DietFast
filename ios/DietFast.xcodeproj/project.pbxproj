@@ -11,25 +11,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		273EC1ABFD104F1F8B44A21F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DietFastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DietFastTests.m */; };
+		2E96BBE1BADE4AFFBAAC56D8 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */; };
+		3BB586E085824D7693EA0B45 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */; };
+		4A63AADAFA584F508A9D3C3B /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */; };
 		58D9A2F65AE1F38430FE5591 /* libPods-DietFast-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8BB9BA1F2B57D67DB7A145 /* libPods-DietFast-tvOSTests.a */; };
+		75F27F71A5D54AD5BD53B283 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */; };
+		7D8F016060E44D1EA3A13EEE /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8235761434D6AFB330176BD8 /* libPods-DietFast-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016FE4949982BE2DA756333E /* libPods-DietFast-tvOS.a */; };
 		8E5181E2D17EE16095F49518 /* libPods-DietFast-DietFastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */; };
-		D61D3F8336411E058B10F255 /* libPods-DietFast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42788CBA6A74DE21E8F204C /* libPods-DietFast.a */; };
-		273EC1ABFD104F1F8B44A21F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */; };
-		9960DD56225041198E49556B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */; };
-		E71C9D8A65974E3DB3B0B25B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */; };
-		75F27F71A5D54AD5BD53B283 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */; };
-		7D8F016060E44D1EA3A13EEE /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */; };
-		4A63AADAFA584F508A9D3C3B /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */; };
-		FFF87FE3D3034A90BAA7E10E /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */; };
-		2E96BBE1BADE4AFFBAAC56D8 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */; };
-		3BB586E085824D7693EA0B45 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */; };
 		9532F5D3DA8C41C0B754B22B /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */; };
+		9960DD56225041198E49556B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */; };
+		D61D3F8336411E058B10F255 /* libPods-DietFast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42788CBA6A74DE21E8F204C /* libPods-DietFast.a */; };
+		E71C9D8A65974E3DB3B0B25B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */; };
+		FFF87FE3D3034A90BAA7E10E /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,26 +67,26 @@
 		2D45491C7872476E44262CEC /* Pods-DietFast-DietFastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-DietFastTests.debug.xcconfig"; path = "Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests.debug.xcconfig"; sourceTree = "<group>"; };
 		342960D73EF019D15DDC89AB /* Pods-DietFast-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOSTests/Pods-DietFast-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		49BA13A99D44DF5F32C2FB9C /* Pods-DietFast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast.release.xcconfig"; path = "Target Support Files/Pods-DietFast/Pods-DietFast.release.xcconfig"; sourceTree = "<group>"; };
+		4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		766CA185CB795594AE9D49FD /* Pods-DietFast-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOS/Pods-DietFast-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7C8BB9BA1F2B57D67DB7A145 /* libPods-DietFast-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DietFast/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../Src/Assets/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		A42788CBA6A74DE21E8F204C /* libPods-DietFast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../Src/Assets/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../Src/Assets/Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast-DietFastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86FD0A35D0DF90CBEF3EADD /* Pods-DietFast-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOSTests/Pods-DietFast-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../Src/Assets/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		EFD87CCCAF869E7E2DC649CC /* Pods-DietFast-DietFastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-DietFastTests.release.xcconfig"; path = "Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5C033218D68A5721C030113 /* Pods-DietFast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast.debug.xcconfig"; path = "Target Support Files/Pods-DietFast/Pods-DietFast.debug.xcconfig"; sourceTree = "<group>"; };
-		ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../Src/Assets/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-BoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; name = "OpenSans-Italic.ttf"; path = "../Src/Assets/Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../Src/Assets/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-LightItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../Src/Assets/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +220,7 @@
 			sourceTree = "<group>";
 		};
 		84A9B945CF704ADBBF4E9327 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */,
 				5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */,
@@ -234,8 +234,8 @@
 				4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -455,10 +455,42 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,10 +563,42 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DietFast/Pods-DietFast-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

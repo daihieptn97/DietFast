@@ -19,7 +19,9 @@ function SlideScreen() {
                 byScreen={byScreen}
                 setByScreen={setByScreen}
         />
-        <View style={styles.wrapContent} pointevent={'none'}>
+        <View style={styles.wrapContent}
+            // pointEvents={'none'}
+        >
             <View style={{position: 'relative', backgroundColor: '#f4f5fa', flex: 1}}>
                 <Image source={Images.bgSlideGreen} style={styles.imgBgGreen}/>
                 <ImageBackground source={Images.bgSlideWhite} style={[styles.imgBgGreen, {top: '-93%'}]}>
