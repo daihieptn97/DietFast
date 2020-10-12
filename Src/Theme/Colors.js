@@ -33,4 +33,5 @@ export default {
     deActive: '#e3e3e3',
 
     warmGrey: '#8d8d8d',
+    softGreen: '#6cc57c',
 };

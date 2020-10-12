@@ -27,6 +27,10 @@
 		8E5181E2D17EE16095F49518 /* libPods-DietFast-DietFastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */; };
 		9532F5D3DA8C41C0B754B22B /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */; };
 		9960DD56225041198E49556B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */; };
+		AEA825032534128D00145F4E /* DietFastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DietFastTests.m */; };
+		AEA825052534128D00145F4E /* libPods-DietFast-DietFastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */; };
+		AEA825112534128D00145F4E /* DietFastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DietFastTests.m */; };
+		AEA825132534128D00145F4E /* libPods-DietFast-DietFastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */; };
 		D61D3F8336411E058B10F255 /* libPods-DietFast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42788CBA6A74DE21E8F204C /* libPods-DietFast.a */; };
 		E71C9D8A65974E3DB3B0B25B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */; };
 		FFF87FE3D3034A90BAA7E10E /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */; };
@@ -46,6 +50,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "DietFast-tvOS";
+		};
+		AEA825002534128D00145F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = DietFast;
+		};
+		AEA8250E2534128D00145F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = DietFast;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,24 +85,28 @@
 		2D45491C7872476E44262CEC /* Pods-DietFast-DietFastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-DietFastTests.debug.xcconfig"; path = "Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests.debug.xcconfig"; sourceTree = "<group>"; };
 		342960D73EF019D15DDC89AB /* Pods-DietFast-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOSTests/Pods-DietFast-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		49BA13A99D44DF5F32C2FB9C /* Pods-DietFast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast.release.xcconfig"; path = "Target Support Files/Pods-DietFast/Pods-DietFast.release.xcconfig"; sourceTree = "<group>"; };
-		4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5941A8DA35BF4E1E8BEFD177 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		766CA185CB795594AE9D49FD /* Pods-DietFast-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOS/Pods-DietFast-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		76EBB51B64B1421E9B34BEBC /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7C8BB9BA1F2B57D67DB7A145 /* libPods-DietFast-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DietFast/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../Src/Assets/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		83D6EECB00FD4F83A5AF3AE8 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8600D1A086C84D8389C8790E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../Src/Assets/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		A42788CBA6A74DE21E8F204C /* libPods-DietFast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../Src/Assets/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../Src/Assets/Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		ADF8390D4DD243A6AA5A9BCC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../Src/Assets/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		AEA8250B2534128D00145F4E /* DietFastTests copy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DietFastTests copy.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA825192534128D00145F4E /* DietFastTests copy 2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DietFastTests copy 2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA8251A2534128D00145F4E /* DietFastTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DietFastTests copy-Info.plist"; path = "/Users/tranhiep/Code/reactnative/DietFast/ios/DietFastTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		AEA8251B2534128D00145F4E /* DietFastTests copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DietFastTests copy 2-Info.plist"; path = "/Users/tranhiep/Code/reactnative/DietFast/ios/DietFastTests copy 2-Info.plist"; sourceTree = "<absolute>"; };
+		BCF33BB6CEEA4DDCB71B6C8A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../Src/Assets/Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		C028D828150836442DB03170 /* libPods-DietFast-DietFastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DietFast-DietFastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86FD0A35D0DF90CBEF3EADD /* Pods-DietFast-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DietFast-tvOSTests/Pods-DietFast-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CB28FDB18A184929A60EA80D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../Src/Assets/Fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB2B45EC92BE4FB2A65B3520 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../Src/Assets/Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../Src/Assets/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		EE1B9EF632F4410AA116418D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../Src/Assets/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		EFD87CCCAF869E7E2DC649CC /* Pods-DietFast-DietFastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast-DietFastTests.release.xcconfig"; path = "Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5C033218D68A5721C030113 /* Pods-DietFast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietFast.debug.xcconfig"; path = "Target Support Files/Pods-DietFast/Pods-DietFast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +141,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D9A2F65AE1F38430FE5591 /* libPods-DietFast-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA825042534128D00145F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA825052534128D00145F4E /* libPods-DietFast-DietFastTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA825122534128D00145F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA825132534128D00145F4E /* libPods-DietFast-DietFastTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +219,6 @@
 				C86FD0A35D0DF90CBEF3EADD /* Pods-DietFast-tvOSTests.debug.xcconfig */,
 				342960D73EF019D15DDC89AB /* Pods-DietFast-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,6 +239,8 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				46A36E6923041C0024B44DFF /* Pods */,
 				84A9B945CF704ADBBF4E9327 /* Resources */,
+				AEA8251A2534128D00145F4E /* DietFastTests copy-Info.plist */,
+				AEA8251B2534128D00145F4E /* DietFastTests copy 2-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -215,6 +254,8 @@
 				00E356EE1AD99517003FC87E /* DietFastTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* DietFast-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* DietFast-tvOSTests.xctest */,
+				AEA8250B2534128D00145F4E /* DietFastTests copy.xctest */,
+				AEA825192534128D00145F4E /* DietFastTests copy 2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +275,6 @@
 				4C230095CDF0427F810DA8A4 /* OpenSans-SemiBoldItalic.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +360,46 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* DietFast-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AEA824FE2534128D00145F4E /* DietFastTests copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA825082534128D00145F4E /* Build configuration list for PBXNativeTarget "DietFastTests copy" */;
+			buildPhases = (
+				AEA825012534128D00145F4E /* [CP] Check Pods Manifest.lock */,
+				AEA825022534128D00145F4E /* Sources */,
+				AEA825042534128D00145F4E /* Frameworks */,
+				AEA825062534128D00145F4E /* Resources */,
+				AEA825072534128D00145F4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA824FF2534128D00145F4E /* PBXTargetDependency */,
+			);
+			name = "DietFastTests copy";
+			productName = DietFastTests;
+			productReference = AEA8250B2534128D00145F4E /* DietFastTests copy.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA8250C2534128D00145F4E /* DietFastTests copy 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA825162534128D00145F4E /* Build configuration list for PBXNativeTarget "DietFastTests copy 2" */;
+			buildPhases = (
+				AEA8250F2534128D00145F4E /* [CP] Check Pods Manifest.lock */,
+				AEA825102534128D00145F4E /* Sources */,
+				AEA825122534128D00145F4E /* Frameworks */,
+				AEA825142534128D00145F4E /* Resources */,
+				AEA825152534128D00145F4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA8250D2534128D00145F4E /* PBXTargetDependency */,
+			);
+			name = "DietFastTests copy 2";
+			productName = DietFastTests;
+			productReference = AEA825192534128D00145F4E /* DietFastTests copy 2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,6 +443,8 @@
 				00E356ED1AD99517003FC87E /* DietFastTests */,
 				2D02E47A1E0B4A5D006451C7 /* DietFast-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* DietFast-tvOSTests */,
+				AEA824FE2534128D00145F4E /* DietFastTests copy */,
+				AEA8250C2534128D00145F4E /* DietFastTests copy 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -403,6 +485,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA825062534128D00145F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA825142534128D00145F4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -606,6 +702,150 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DietFast/Pods-DietFast-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AEA825012534128D00145F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DietFast-DietFastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA825072534128D00145F4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA8250F2534128D00145F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DietFast-DietFastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA825152534128D00145F4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DietFast-DietFastTests/Pods-DietFast-DietFastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C8C79253ECDAB4A631EC6CAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,6 +943,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEA825022534128D00145F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA825032534128D00145F4E /* DietFastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA825102534128D00145F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA825112534128D00145F4E /* DietFastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -715,6 +971,16 @@
 			isa = PBXTargetDependency;
 			target = 2D02E47A1E0B4A5D006451C7 /* DietFast-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		AEA824FF2534128D00145F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* DietFast */;
+			targetProxy = AEA825002534128D00145F4E /* PBXContainerItemProxy */;
+		};
+		AEA8250D2534128D00145F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* DietFast */;
+			targetProxy = AEA8250E2534128D00145F4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1029,6 +1295,92 @@
 			};
 			name = Release;
 		};
+		AEA825092534128D00145F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D45491C7872476E44262CEC /* Pods-DietFast-DietFastTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DietFastTests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietFast.app/DietFast";
+			};
+			name = Debug;
+		};
+		AEA8250A2534128D00145F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD87CCCAF869E7E2DC649CC /* Pods-DietFast-DietFastTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "DietFastTests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietFast.app/DietFast";
+			};
+			name = Release;
+		};
+		AEA825172534128D00145F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D45491C7872476E44262CEC /* Pods-DietFast-DietFastTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DietFastTests copy 2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietFast.app/DietFast";
+			};
+			name = Debug;
+		};
+		AEA825182534128D00145F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD87CCCAF869E7E2DC649CC /* Pods-DietFast-DietFastTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "DietFastTests copy 2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietFast.app/DietFast";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1073,6 +1425,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA825082534128D00145F4E /* Build configuration list for PBXNativeTarget "DietFastTests copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA825092534128D00145F4E /* Debug */,
+				AEA8250A2534128D00145F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA825162534128D00145F4E /* Build configuration list for PBXNativeTarget "DietFastTests copy 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA825172534128D00145F4E /* Debug */,
+				AEA825182534128D00145F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
