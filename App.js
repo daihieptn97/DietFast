@@ -27,18 +27,19 @@ function App() {
 export default App;
 
 function MyTabBar({state, descriptors, navigation}) {
-    console.log(state, descriptors, navigation);
+    // console.log(state, descriptors, navigation);
     return (
         <SafeAreaView style={{backgroundColor: Colors.white, borderTopLeftRadius: 12, borderTopRightRadius: 12}}>
             <View style={{
                 flexDirection: 'row',
-                // backgroundColor: '#F4AF5F',
                 height: 50,
                 borderRadius: 50,
                 justifyContent: 'center',
                 alignItems: 'center',
-                // marginBottom: 30,
-                marginHorizontal: 98,
+                marginBottom: 30,
+                marginHorizontal: 78,
+                paddingHorizontal: 12,
+                // backgroundColor : "red"
             }}>
                 {state.routes.map((route, index) => {
                     const {options} = descriptors[route.key];
@@ -69,7 +70,22 @@ function MyTabBar({state, descriptors, navigation}) {
                         });
                     };
                     const views = () => {
-
+                        if (isFocused) {
+                            return <View style={{
+                                flexDirection: 'row',
+                                backgroundColor: Colors.softGreen,
+                                borderRadius: 12,
+                                padding: 6,
+                                alignItems: 'center',
+                            }}>
+                                <Ionicons name={'home'} size={23} color={Colors.white}/>
+                                <Text style={{color: isFocused ? '#efeff1' : '#222', marginLeft: 5}}>
+                                    {label}
+                                </Text>
+                            </View>;
+                        } else {
+                            return <Ionicons name={'home'} size={23}/>;
+                        }
                     };
                     return (
                         <TouchableOpacity
@@ -80,17 +96,9 @@ function MyTabBar({state, descriptors, navigation}) {
                             testID={options.tabBarTestID}
                             onPress={onPress}
                             onLongPress={onLongPress}
-                            style={{flex: 1}}
+                            style={{justifyItems: 'center', flexDirection : ""}}
                         >
-                            {isFocused ?
-                                <View>
-                                    <Text style={{color: isFocused ? '#673ab7' : '#222'}}>
-                                        {label}
-                                    </Text>
-                                </View>
-                                :
-                                <Ionicons name={'home'} size={23}/>
-                            }
+                            {views()}
                         </TouchableOpacity>
                     );
                 })}
