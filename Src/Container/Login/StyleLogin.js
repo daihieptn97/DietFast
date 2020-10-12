@@ -15,6 +15,7 @@ export default StyleSheet.create({
         flex: 4.8,
         justifyContent: 'center',
         alignItems: 'center',
+        zIndex: 1
     },
     inputEmail: {
         width: Dimension.screenWidth - 78,
@@ -58,7 +59,21 @@ export default StyleSheet.create({
     },
     txtLogin: {
         color: Colors.white,
-        fontSize : 20,
+        fontSize: 20,
 
     },
+    wrapButtonSocial: {
+        backgroundColor: Colors.white,
+        width: 82,
+        height: 51,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 14,
+        borderRadius: 12,
+        marginHorizontal: 10.5,
+    },
+    imageSocial: {
+        resizeMode: 'center',
+    },
+    rowFlexDirection: {flexDirection: 'row'},
 });

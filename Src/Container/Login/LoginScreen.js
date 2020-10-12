@@ -54,12 +54,24 @@ function LoginScreen() {
                 </TouchableOpacity>
             </View>
 
-            <TouchableOpacity style={{flexDirection: 'row'}}>
+            <TouchableOpacity style={styleLogin.rowFlexDirection}>
                 <Text style={[styleLogin.textForgotPassword, Fonts.fontOpenSansRegular]}>Don't have an account?</Text>
                 <Text style={[Fonts.fontOpenSansBold, styleLogin.textForgotPassword]}>Sign up</Text>
             </TouchableOpacity>
 
+            <View style={styleLogin.rowFlexDirection}>
+                <TouchableOpacity>
+                    <View style={styleLogin.wrapButtonSocial}>
+                        <Image source={Images.logoFb} style={styleLogin.imageSocial}/>
+                    </View>
+                </TouchableOpacity>
 
+                <TouchableOpacity>
+                    <View style={styleLogin.wrapButtonSocial}>
+                        <Image source={Images.logGG} style={styleLogin.imageSocial}/>
+                    </View>
+                </TouchableOpacity>
+            </View>
         </View>
 
         <View style={styleLogin.imgBgTop}>

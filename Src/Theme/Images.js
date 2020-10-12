@@ -8,4 +8,7 @@ export default {
     bgTopLogin: require('../Assets/Images/Login/top.png'),
     bgBottomLogin: require('../Assets/Images/Login/bottom.png'),
 
+    logoFb: require('../Assets/Images/Login/facebook.png'),
+    logGG: require('../Assets/Images/Login/search.png'),
+
 };
