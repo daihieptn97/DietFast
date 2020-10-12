@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text, Button, TouchableOpacity, SafeAreaView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SlideScreen from './Src/Container/Slide/SlideScreen';
@@ -7,6 +7,7 @@ import LoginScreen from './Src/Container/Login/LoginScreen';
 import HomeScreen from './Src/Container/Home/HomeScreen';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/dist/Ionicons';
+import {Colors} from './Src/Theme';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -25,29 +26,82 @@ function App() {
 
 export default App;
 
+function MyTabBar({state, descriptors, navigation}) {
+    console.log(state, descriptors, navigation);
+    return (
+        <SafeAreaView style={{backgroundColor: Colors.white, borderTopLeftRadius: 12, borderTopRightRadius: 12}}>
+            <View style={{
+                flexDirection: 'row',
+                // backgroundColor: '#F4AF5F',
+                height: 50,
+                borderRadius: 50,
+                justifyContent: 'center',
+                alignItems: 'center',
+                // marginBottom: 30,
+                marginHorizontal: 98,
+            }}>
+                {state.routes.map((route, index) => {
+                    const {options} = descriptors[route.key];
+                    const label =
+                        options.tabBarLabel !== undefined
+                            ? options.tabBarLabel
+                            : options.title !== undefined
+                            ? options.title
+                            : route.name;
+
+                    const isFocused = state.index === index;
+
+                    const onPress = () => {
+                        const event = navigation.emit({
+                            type: 'tabPress',
+                            target: route.key,
+                        });
+
+                        if (!isFocused && !event.defaultPrevented) {
+                            navigation.navigate(route.name);
+                        }
+                    };
+
+                    const onLongPress = () => {
+                        navigation.emit({
+                            type: 'tabLongPress',
+                            target: route.key,
+                        });
+                    };
+                    const views = () => {
+
+                    };
+                    return (
+                        <TouchableOpacity
+                            key={route.name}
+                            accessibilityRole="button"
+                            accessibilityStates={isFocused ? ['selected'] : []}
+                            accessibilityLabel={options.tabBarAccessibilityLabel}
+                            testID={options.tabBarTestID}
+                            onPress={onPress}
+                            onLongPress={onLongPress}
+                            style={{flex: 1}}
+                        >
+                            {isFocused ?
+                                <View>
+                                    <Text style={{color: isFocused ? '#673ab7' : '#222'}}>
+                                        {label}
+                                    </Text>
+                                </View>
+                                :
+                                <Ionicons name={'home'} size={23}/>
+                            }
+                        </TouchableOpacity>
+                    );
+                })}
+            </View>
+        </SafeAreaView>
+    );
+}
+
 function TabHome() {
     return <Tab.Navigator
-
-        screenOptions={({route}) => ({
-            tabBarIcon: ({focused, color, size}) => {
-                let iconName;
-
-                if (route.name === 'Home') {
-                    iconName = focused
-                        ? 'alert-outline'
-                        : 'alert-outline';
-                } else if (route.name === 'Settings') {
-                    iconName = focused ? 'alert-outline' : 'alert-outline';
-                }
-
-                // You can return any component that you like here!
-                return <Ionicons name={iconName} size={size} color={color}/>;
-            },
-        })}
-        tabBarOptions={{
-            activeTintColor: 'tomato',
-            inactiveTintColor: 'gray',
-        }}
+        tabBar={props => <MyTabBar {...props} />}
     >
         <Tab.Screen name="Home" component={HomeScreen}/>
         <Tab.Screen name="Settings" component={SettingsStackScreen}/>
